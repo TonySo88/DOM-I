@@ -97,3 +97,27 @@ contactP[2].textContent = siteContent["contact"]["email"];
 let footer = document.querySelector("footer");
 
 footer.textContent = siteContent["footer"]["copyright"];
+
+const headerElement = document.querySelector("nav");
+const subHeadline = document.createElement("h1")
+subHeadline.textContent = "Cool Stuff"
+subHeadline.style.fontSize = "18px"
+subHeadline.style.color = "green"
+headerElement.appendChild(subHeadline); 
+
+const headerElement2 = document.querySelector("nav");
+const subHeadline2 = document.createElement("h1")
+subHeadline2.textContent = "Kinda Cool Stuff"
+subHeadline2.style.fontSize = "18px"
+subHeadline2.style.color = "green"
+headerElement.prepend(subHeadline2); 
+
+const navOptions = document.querySelectorAll("nav");
+
+navItems[0].style.color = "green";
+navItems[1].style.color = "green";
+navItems[2].style.color = "green";
+navItems[3].style.color = "green";
+navItems[4].style.color = "green";
+navItems[5].style.color = "green";
+
